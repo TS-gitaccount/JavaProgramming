@@ -1,3 +1,6 @@
+//write a program to print the concatination of firat and last character of the string
+
+
 package String;
 
 public class ConcatingFirstLastCharacter {

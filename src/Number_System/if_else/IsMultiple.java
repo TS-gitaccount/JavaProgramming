@@ -1,5 +1,5 @@
 
-package number_system.if_else;
+package Number_System.if_else;
 import   java.util.Scanner;
 public class IsMultiple {
     public static void main(String[] args) {

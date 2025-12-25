@@ -1,3 +1,4 @@
+//write a program to remove the duplicate character from the string
 package String;
 
 public class RemoveDuplicateCharacter {
@@ -36,5 +37,5 @@ public class RemoveDuplicateCharacter {
     }
 
 
-    //using HashMap
+
 }

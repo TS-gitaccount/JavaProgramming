@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class BinarySearch {
     static void main(String[] args) {
-        int[] a={1,2,3,6,3,4};
+        int[] a={1,2,3,3,4,6};
         Scanner sc=new Scanner(System.in);
         System.out.println(Arrays.toString(a));
         System.out.println("Enter the number to search : ");
@@ -20,7 +20,7 @@ public class BinarySearch {
     while(st<=end){
         int mid=(st+end)/2;
         if(a[mid]==n){
-            return "Element found at index "+mid;
+            return "Element found at index "+mid +"\n Element found at position "+(mid+1);
         }
         else if(a[mid]>n){
             end=mid-1;

@@ -1,6 +1,6 @@
 // write a program to check if the given character is a
 // digit or alphabet or special character
-package Number_System.else_if;
+package Number_System;
 
 import java.util.Scanner;
 

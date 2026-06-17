@@ -1,0 +1,96 @@
+1.  tv= v*4-w/2
+
+2.  year%400==0 || year%4==0 && year%100 != 0
+
+3.  buzz no is the number which is divisible by 7 or endswith 7
+        no % 7 == 0 || no % 10 == 7
+
+4.  if (ch >= '0' && ch<= '9')
+    (( ch >= 'a' && ch <='z') || (ch >= 'A' && ch <= 'Z'))
+
+5.  fizzbuzz is divisible by both 3 and 7
+
+6.  int Binary = 0, pow = 1;
+                while (n > 0) {
+                    Binary += (n % 2) * pow;
+                    n /= 2;
+                    pow *= 10;
+                }
+                return Binary;
+
+7. int decimal = 0, pow = 1;
+               while (n > 0) {
+                   decimal += (n % 10) * pow;
+                   n /= 10;
+                   pow *= 2;
+               }
+               return decimal;
+
+8.  int lcm=n1>n2?n1:n2;
+            while (true){
+                if(lcm%n1==0 && lcm%n2==0){
+                    return lcm;
+                }
+                lcm++;
+            }
+
+9.  palindrome
+    int num=n,rev=0;
+    while (n > 0) {
+                rev = (rev*10) +(n % 10);
+                n/=10;
+            }
+
+10. neon no
+    if no == sum of digit of the square no
+
+11. Perfect no
+    no == sum of common facter of no
+      int sum=0;
+            if(n>1)
+            for (int i=1;i<=n/2;i++)
+                if (n%i==0)
+                    sum+=i;
+            if (sum==n)
+                return "perfect no";
+
+12. print 1 to 100
+    if(int i ='a'/'a' ; i<='d';i++)
+    print i
+
+13. perfect square
+    i*i==no
+
+14. sunny no
+    no+1
+    i*i==no
+
+15. spy no
+    sum of the digit == product of digit
+
+16. xylem or phloem
+    sum of 1st + last digit == sum of b/w digit
+
+17. strong no
+    sum of the digit's factorial
+
+18. armstrong no
+    find digit count = pow
+    sum of the digit's pow
+
+19. happy no
+    no ==1 happy || no == 4 not happy
+    while
+    sum of the digit's square
+
+20. magic no
+    no ==1 magic || no <10 not magic
+    while
+    sum of the digit's square
+
+21. gcd
+    while(n2!=0)
+    temp=n2;
+    n2=n1%n2;
+    n1=temp;
+    return n1;

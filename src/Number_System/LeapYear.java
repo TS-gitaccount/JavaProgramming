@@ -1,6 +1,6 @@
 // write a program to check the given year is leap year or not
 
-package Number_System.if_else;
+package Number_System;
 
 import java.util.Scanner;
 

@@ -2,7 +2,7 @@
 
 //buzz no is the number which is divisible by 7 or endswith 7
 
-package Number_System.if_else;
+package Number_System;
 
 import java.util.Scanner;
 

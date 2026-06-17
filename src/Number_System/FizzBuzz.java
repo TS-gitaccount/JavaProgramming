@@ -4,7 +4,7 @@
 // fizzbuzz is divisible by both 3 and 7
 
 
-package Number_System.else_if;
+package Number_System;
 
 import java.util.Scanner;
 
